@@ -1,0 +1,88 @@
+
+.font20 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+  /* ---------===============================================------------------------------ */
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #1b5d3b;
+    max-height: 4px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    width: 6px;
+    height: 12px;
+    border: 3px solid #1b5d3b;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  /* #editor {
+    resize:vertical;
+    overflow:auto;
+    border:1px solid silver;
+    border-radius:5px;
+    min-height:100px;
+    box-shadow: inset 0 0 10px silver;
+    padding:1em;
+    background: white;
+    margin: 0 auto;
+    width: 90%;
+  } */
+  .content {
+    margin: 50px auto 0;
+  }
+  
+  h1#head {
+    font-family: 'Euphoria Script';
+    text-align: center;
+    margin: 0 0 30px;  
+    font-size: 100px;
+    line-height: 90px;
+    text-shadow: 1px 1px 1px #343434;
+    font-weight: normal;
+  }
+  
+  #editor {
+    resize:vertical;
+    overflow:auto;
+    border:1px solid silver;
+    border-radius:5px;
+    min-height:100px;
+    box-shadow: inset 0 0 10px silver;
+    padding:1em;
+    background: white;
+    margin: 0 auto;
+    width: 90%;
+  }
