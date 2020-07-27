@@ -399,7 +399,7 @@ class Admin extends CI_Controller
     {
         if($this::check_session()){
             
-           
+          
             $data['page'] = 'Add / Remove Students'; 
             $data['addStudentsTab'] = TRUE;
             if($entry != 'Fresh' & $entry != 'Retraining' & $entry !== NULL){
